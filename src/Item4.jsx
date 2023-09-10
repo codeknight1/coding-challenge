@@ -1,5 +1,8 @@
 import React from 'react';
-import Image1 from "../public/5.png";
+import Image1 from "../public/f.png";
+import Image2 from "../public/d.png";
+import Image3 from "../public/g.png";
+import Image4 from "../public/e.png";
 import { motion as m } from 'framer-motion';
 
 const Item4 = () => {
@@ -20,7 +23,7 @@ const Item4 = () => {
           <button className="inline-block text-gray-500 text-sm sm:text-base border-2 px-8 py-[.4em] bg-transparent border-gray-400 rounded-full hover:shadow-md active:scale-90 duration-200">
             Read more
           </button>
-          <img src={Image1} alt="Image" className="w-[10%] md:max-w-[100rem]" />
+          <img src={Image1} alt="Image" className="w-[80%] md:max-w-[100rem]" />
         </m.div>
 
         <m.div
@@ -32,7 +35,7 @@ const Item4 = () => {
           <button className="inline-block text-gray-500 text-sm sm:text-base border-2 px-8 py-[.4em] bg-transparent border-gray-400 rounded-full hover:shadow-md active:scale-90 duration-200">
             Read more
           </button>
-          <img src={Image1} alt="Image" className="w-[10%] md:max-w-[100rem]" />
+          <img src={Image2} alt="Image" className="w-[80%] md:max-w-[100rem]" />
         </m.div>
 
 
@@ -45,7 +48,7 @@ const Item4 = () => {
           <button className="inline-block text-gray-500 text-sm sm:text-base border-2 px-8 py-[.4em] bg-transparent border-gray-400 rounded-full hover:shadow-md active:scale-90 duration-200">
             Read more
           </button>
-          <img src={Image1} alt="Image" className="w-[10%] md:max-w-[100rem]" />
+          <img src={Image3} alt="Image" className="w-[80%] md:max-w-[100rem]" />
         </m.div>
 
         <m.div
@@ -57,7 +60,7 @@ const Item4 = () => {
           <button className="inline-block text-gray-500 text-sm sm:text-base border-2 px-8 py-[.4em] bg-transparent border-gray-400 rounded-full hover:shadow-md active:scale-90 duration-200">
             Read more
           </button>
-          <img src={Image1} alt="Image" className="w-[10%] md:max-w-[100rem]" />
+          <img src={Image4} alt="Image" className="w-[60%] md:max-w-[100rem]" />
         </m.div>
       </m.div>
     </m.div>

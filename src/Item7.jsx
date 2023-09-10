@@ -20,7 +20,7 @@ const cardData = [
   },
   {
     id: 3,
-    imageSrc: 'd.jpeg',
+    imageSrc: 'd.png',
     title: 'To mallan how far',
     subtitle: 'Gamu ba text da za sa',
     content:
