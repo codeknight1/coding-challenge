@@ -67,7 +67,7 @@ const Hero = () => {
 
 
 
-        {/* Add more carousel items here */}
+      
       </Carousel>
     </div>
   );
